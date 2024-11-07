@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/Css/style.css">
+    <script src="/static/Js/main.js"></script>
+    <script src="https://kit.fontawesome.com/fc60ec4e69.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container2">
+        <div class="headline">
+            <h2>
+                <span class="first-letter">P&nbsp;</span>R&nbsp;A&nbsp;V&nbsp;E&nbsp;E&nbsp;N
+            </h2>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id="header">
+            <div class="row">
+                <!-- Left side content -->
+                <div class="col-md-6 header-content">
+                    <p>Java/Python Programmer</p>
+                    <h1>Hi, I'm <span>Praveen</span> from India</h1>
+                </div>
+                <!-- Right side image -->
+                <div class="col-md-6 header-image">
+                    <img src="/static/images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container3">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/static/images/2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title1">About Me</h1>
+                    <p>"Computer Science student with strong skills in Python, Java, and frameworks like Django and
+                        Spring. Passionate about web development and eager to contribute to impactful tech projects as I
+                        grow in my career."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend Developer</span> <br> Java Backend Development - API </li>
+                            <li><span>Frontend Developer</span> <br> UI Development (HTML, CSS, Bootstrap) </li>
+                            <li><span>Data Storage & Management</span> <br> MySQL, MongoDB</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher Developer</span> </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span> <br> Matric (87.83%) </li>
+                            <li><span>2021</span> <br> Intermediate (81.4%) </li>
+                            <li><span>Current (Final Year)</span> <br> B.tech (CSE with the cgpa of 8.0) </li>
+                            <li><span>2023</span> <br>Java(basic to Advance) Training From NIPS Institute</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------services--------------- -->
+
+    <div id="services">
+        <div class="container4">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>We provide Web Design training in HTML, CSS, JavaScript, and Bootstrap, enabling students to
+                        build modern, responsive websites that are both visually engaging and user-friendly.
+
+                    </p>
+                    <a href="https://onlinecourses0.godaddysites.com/" target="_blank">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>We offer comprehensive Java training, guiding students from the basics to advanced concepts like
+                        OOP, Servlets, Spring, and JSP. This course is crafted to provide a deep understanding of Java.
+                    </p>
+                    <a href="https://onlinecourses0.godaddysites.com/" target="_blank">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Our Python training program takes students from foundational knowledge to advanced levels,
+                        covering essential concepts and Flask framework..</p>
+                    <a href="https://onlinecourses0.godaddysites.com/" target="_blank">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ---------------Portfolio--------------------- -->
+
+    <div id="portfolio">
+        <div class="container5">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/static/images/3.png" alt="">
+                    <div class="layer">
+                        <h3>Dietitian-Hub Website</h3>
+                        <p> I designed a Dietitian Hub website that securely stores user health data in a MySQL
+                            database, featuring an admin dashboard with CRUD capabilities for personalized diet plan
+                            management</p>
+                        <a href="https://github.com/PraveenDevPro-03/Dietitian-hub-project" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/static/images/4.png" alt="">
+                    <div class="layer">
+                        <h3>Resume-Builder</h3>
+                        <p>I developed a Resume Builder website where users can quickly create professional resumes by
+                            filling out simple forms, which are organized into a polished, structured format.,</p>
+                        <a href="https://github.com/PraveenDevPro-03/Resume-Builder" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/static/images/5.png" alt="">
+                    <div class="layer">
+                        <h3>Geofencing Map</h3>
+                        <p>As part of my NHPC internship, I created a Geofencing Utility that captures map coordinates
+                            by drawing polygons. Built with Flask and Leaflet.js, it includes an admin panel with full
+                            CRUD functionality for efficient project management</p>
+                        <a href="https://github.com/PraveenDevPro-03/Geofencing-Utility-NHPC" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------Contact-------------------->
+
+    <div id="contact">
+        <div class="container6">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>onlinecourses0298@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-8439395948</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/praveen-72b4b926b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAWCW3tswTQi%2F6oHBa%2Fdfjw%3D%3D"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100080589893130&mibextid=rS40aB7S9Ucbxw6v"
+                            target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/official_online_courses/#" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="/static/Resume/Praveen_res.pdf" download class="btn btnn">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="" name="google-sheet">
+                        <input type="text" name="name" id="" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" id="" placeholder="Enter your Email" required>
+                        <textarea name="message" id="" rows="6" placeholder="enter your message"></textarea>
+                        <button type="submit" class="btn btnn">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+
+    <!-- // ------sheet linking------------- -->
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuCnRoH-KH4LUXXr4ihxCJiO36xJcIsrqC5EsQPMDam3m0bZIRVqQ3Ul0z66aiFxE/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+        
+</script>
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p>"Copyright © Praveen | All Rights Reserved"</p>
+    </div>
+
+</body>
+
+</html>
