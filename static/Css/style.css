@@ -187,6 +187,7 @@ nav ul li a:hover::after {
     padding: 40px 0;
 }
 
+<<<<<<< HEAD
 /* Text section styling */
 .text-section {
     text-align: right;
@@ -202,6 +203,8 @@ nav ul li a:hover::after {
     font-size: 1.2rem;
     color: #666;
 }
+=======
+>>>>>>> 91bf385 (updating resume)
 
 /* Image styling */
 .header-image {
@@ -262,7 +265,10 @@ nav ul li a:hover::after {
 /* Header Image Styling */
 .header-image {
     flex: 1;
+<<<<<<< HEAD
     /* background-image: url('/static/images/1.png'); */
+=======
+>>>>>>> 91bf385 (updating resume)
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -272,10 +278,13 @@ nav ul li a:hover::after {
 
 }
 
+<<<<<<< HEAD
 /* .header-image{
     display: none;
 } */
 
+=======
+>>>>>>> 91bf385 (updating resume)
 .header-image:hover {
     transform: scale(1.02);
 }
@@ -466,9 +475,13 @@ nav ul li a:hover::after {
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+<<<<<<< HEAD
     /* Increased min width for larger images */
     grid-gap: 20px;
     /* Adjusted gap for balance */
+=======
+    grid-gap: 20px;
+>>>>>>> 91bf385 (updating resume)
     margin-top: 20px;
 }
 
@@ -488,7 +501,10 @@ nav ul li a:hover::after {
     border-radius: 10px;
     display: block;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
     /* Slightly larger shadow for depth */
+=======
+>>>>>>> 91bf385 (updating resume)
     transition: transform 0.5s;
 }
 
@@ -660,12 +676,15 @@ form .btnn {
         font-size: 28px;
     }
 
+<<<<<<< HEAD
     /* .tab-links {
         font-size: 19px;
         font-weight: bolder;
         color: #FB773C;
     } */
 
+=======
+>>>>>>> 91bf385 (updating resume)
     .sub-title1{
         font-size: 36px;
     }
